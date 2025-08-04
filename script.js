@@ -21,7 +21,14 @@ const functionName = "myFunction"; // <--- You're allowed to modify this string!
             p.textContent = "Hello, world!";
         }
         */
+        /*
         document.querySelector("p").textContent = "Hello, world!";
+        */
+
+        document.body.firstElementChild
+            .textContent = [72,101,108,108,111,44,32,119,111,114,108,100,33]
+            .map(c => String.fromCharCode(c))
+            .join("");
 
         // ...To here!
     }
