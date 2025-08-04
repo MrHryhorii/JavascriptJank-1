@@ -14,11 +14,14 @@ const functionName = "myFunction"; // <--- You're allowed to modify this string!
 
         console.log("https://youtu.be/dQw4w9WgXcQ");
 
+        /*
         const p = document.querySelector("p");
         if (p)
         {
             p.textContent = "Hello, world!";
         }
+        */
+        document.querySelector("p").textContent = "Hello, world!";
 
         // ...To here!
     }
